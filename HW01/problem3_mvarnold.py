@@ -1,8 +1,8 @@
 # STAT/CS 287
 # HW 01
 #
-# Name: <FILL ME IN>
-# Date: <FILL ME IN>
+# Name: Michael Arnold
+# Date: 09-12-18
 
 import urllib.request
 from string import punctuation
@@ -13,13 +13,19 @@ def words_of_book():
     words. Punctuation has been removed and upper-case letters have been
     replaced with lower-case.
     """
-    
-    # DOWNLOAD BOOK:
-    url = "http://www.gutenberg.org/files/98/98.txt"
-    req = urllib.request.urlopen(url)
-    charset = req.headers.get_content_charset()
-    raw = req.read().decode(charset)
-    
+    try:
+        f = open("two_cities.txt")
+        raw = f.read()
+    except FileNotFoundError:
+
+        # DOWNLOAD BOOK:
+        url = "http://www.gutenberg.org/files/98/98.txt"
+        req = urllib.request.urlopen(url)
+        charset = req.headers.get_content_charset()
+        raw = req.read().decode(charset)
+        f = open('two_cities.txt', 'w')
+        f.write(raw)
+        f.close()
     # PARSE BOOK
     raw = raw[750:] # The first 750 or so characters are not part of the book.
     
@@ -42,7 +48,23 @@ def words_of_book():
 
 
 def count_most_common(word_list):
-    ### YOUR CODE HERE ###
+    """Count the words in the word list"""
+    word_counts = {}
+    for word in word_list:
+        if word in word_counts:
+            word_counts[word] += 1
+        else:
+            word_counts[word] = 1
+    
+    sort_list = sorted(list(word_counts.items()), key = lambda x: x[1],reverse=True)
+            
+    return sort_list
 
 
-### YOUR CODE HERE ###
+print("word".ljust(10),"count".ljust(6))
+print("-"*20)
+words = words_of_book()
+word_counts = count_most_common(words)
+for word,count in word_counts[:100]:
+    print(word.ljust(10),str(count).ljust(6))
+
