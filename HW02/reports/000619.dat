@@ -1,0 +1,14 @@
+DATACENTER 000619
+AUTOMATED REPORT PERIOD: FY 2015-2017
+ERROR MODE                            COUNT
+----------------------------------------------
+Operator (non-employee) error:        2
+Misc. elec.:                         28
+Operator (employee) error:            0
+Power/generator reduction:            1
+Fiber pipeline in:                    5
+Fiber pipeline out:                   2
+Physical intrusion (water):          62
+HVAC:                                 4
+Physical intrusion (person):          0
+Power/generator loss:                 0

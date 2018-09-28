@@ -1,0 +1,26 @@
+DATACENTER 000385
+AUTOMATED REPORT PERIOD: FY 2015-2017
+ERROR MODE                            COUNT
+----------------------------------------------
+A/C:                                  6
+Fiber pipeline in:                    7
+Fiber pipeline out:                   5
+Misc. elec.:                         35
+Operator (employee) error:            0
+Operator (non-employee) error:        2
+Physical intrusion (person):          0
+Physical intrusion (water):           6
+Power/generator loss:                 0
+Power/generator reduction:            0
+OPERATION NOTES:
+3951a95670874ed8d3b58572f47205c4f397(redacted)
+03a4c87818a79f78237d1280d3230ca6eadd(redacted)
+6ad1b6aab48c53ce1a82b422699ee7b7764e(redacted)
+7ca4b83ec4acd6b10b59eebec4606d4770aa(redacted)
+44e2bcc9aa7f5742336bd968e484cd82128a(redacted)
+2e752accb73f82ecd383107fc0088e360716(redacted)
+8016d88baf3b334571a5e5ab72ff99e7d921(redacted)
+e7fa7506707e6cbb09b069826309c0941e33(redacted)
+b356665352af7417b0ad7a3a5c62609116d0(redacted)
+----------------------------------------------
+END OF LINE

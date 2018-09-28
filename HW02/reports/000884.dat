@@ -1,0 +1,25 @@
+DATACENTER 000884
+AUTOMATED REPORT PERIOD: FY 2015-2017
+ERROR MODE                            COUNT
+----------------------------------------------
+Fiber pipeline in:                    2
+Fiber pipeline out:                   2
+HVAC:                                 3
+Misc. elec.:                         28
+Operator (employee) error:            0
+Operator (non-employee) error:        0
+Physical intrusion (person):          0
+Physical intrusion (water):          81
+Power/generator loss:                 0
+Power/generator reduction:            0
+OPERATION NOTES:
+e96ebdd38efe2803cdcdd180f3ef18381c3b(redacted)
+00e9687be2e1090dc442305f93247d7f9f33(redacted)
+733972d999657c0aa05f94edbf129be417db(redacted)
+b310c065d8a4a7c10c7bedd2681991751390(redacted)
+53f9a0a03fc59bf47393be34da771181d395(redacted)
+aea949859f1338388fb63a9a415c690de7d8(redacted)
+19af0321ff5d5702dd9473a5dca301543445(redacted)
+e69e1d2cd167bda32c03a42993279b829c0e(redacted)
+----------------------------------------------
+END OF LINE

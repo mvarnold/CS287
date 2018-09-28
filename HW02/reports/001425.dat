@@ -1,0 +1,30 @@
+DATACENTER 001425
+AUTOMATED REPORT PERIOD: FY 2015-2017
+OPERATION NOTES:
+2b3a41129c48970116de4e1d062e56dd9505(redacted)
+8d4d118d728557d09b0c2b44e042b184cd29(redacted)
+280f4238e49141596bc62697ae515b5d855c(redacted)
+fabea6773bb5d6cc03e39bae6e8ca3f9be50(redacted)
+e43fcbfd1355be72097f36d8d4e9dece84fd(redacted)
+7f07d8996689c6874315584bd9901c41ad1e(redacted)
+3f569011f0461bd4b3eef8254678b3fe34ef(redacted)
+d7f1aa76058e06c6da95948a64090734b6b9(redacted)
+f3eeb634c0dd9b9471383707e3fa3301a5fc(redacted)
+25c82b3ded583e77fdf719e1023a4328db85(redacted)
+adf9cd9111abd90d7eec39c32587f032c4e5(redacted)
+caf709f772d73fd245610e4379babd8b534b(redacted)
+63c5e2c2081ff9a7981f05945dcbcc9012b5(redacted)
+ERROR MODE                            COUNT
+----------------------------------------------
+Operator (non-employee) error:        0
+Fiber pipeline out:                   1
+Power/generator reduction:            0
+Fiber pipeline in:                    0
+Physical intrusion (water):           1
+Power/generator loss:                 0
+Misc. elec.:                          6
+Physical intrusion (person):          0
+Operator (employee) error:            0
+A/C:                                  3
+----------------------------------------------
+END OF LINE

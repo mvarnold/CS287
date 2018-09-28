@@ -1,0 +1,14 @@
+DATACENTER 000663
+AUTOMATED REPORT PERIOD: FY 2015-2017
+ERROR MODE                            COUNT
+----------------------------------------------
+Physical intrusion (water):           1
+Operator (employee) error:            0
+Power/generator loss:                 0
+Misc. elec.:                          8
+Physical intrusion (person):          0
+A/C:                                  2
+Fiber pipeline in:                    2
+Power/generator reduction:            1
+Operator (non-employee) error:        0
+Fiber pipeline out:                   0

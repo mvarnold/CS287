@@ -1,0 +1,23 @@
+DATACENTER 000845
+AUTOMATED REPORT PERIOD: FY 2015-2017
+OPERATION NOTES:
+8c56c41a1f886d10eaf5e7eaf4135a296b33(redacted)
+7333d4dea579769e489534378e2887f3ef8a(redacted)
+39df1e8d839de8c59a5ee1508977053ad229(redacted)
+b8b10493428e7a484d0eec3f7aff8bee7b2a(redacted)
+05fb347b389c8ed31d26022dd3dc398de67e(redacted)
+51b4baf70854dce57ac79d5a137124202d5c(redacted)
+29bb52d5d52676415193eb07642499a04218(redacted)
+b3f7bfe7b9faa8421ed7c444c97ea49b4861(redacted)
+ERROR MODE                            COUNT
+----------------------------------------------
+Misc. elec.:                         18
+HVAC:                                 4
+Physical intrusion (person):          0
+Operator (employee) error:            0
+Physical intrusion (water):          53
+Operator (non-employee) error:        0
+Fiber pipeline in:                    5
+Power/generator loss:                 0
+Power/generator reduction:            0
+Fiber pipeline out:                   0

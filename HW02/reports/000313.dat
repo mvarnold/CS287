@@ -1,0 +1,26 @@
+DATACENTER 000313
+AUTOMATED REPORT PERIOD: FY 2015-2017
+
+
+ERROR MODE                            COUNT
+----------------------------------------------
+HVAC:                                 0
+Physical intrusion (water):           2
+Misc. elec.:                          4
+Operator (employee) error:            0
+Fiber pipeline in:                    0
+Fiber pipeline out:                   1
+Physical intrusion (person):          0
+Power/generator loss:                 0
+Power/generator reduction:            0
+Operator (non-employee) error:        0
+OPERATION NOTES:
+3907412f9a492d84d233253f97a325e8eaec(redacted)
+e41a697697ce5cafaf507b1a53c76d11d1fe(redacted)
+85513bb2a00af6bc56c6bddecfcafe9130ed(redacted)
+f3c31db1cb63a6b20e107003ea402d966ae0(redacted)
+b29bd33756e4c10713ab6eaff3439f9a296d(redacted)
+00c3135150bec5bd3fd20ac9200c22edba30(redacted)
+fbf454c856e611a59e61b34f3c404fe80194(redacted)
+----------------------------------------------
+END OF LINE

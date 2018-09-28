@@ -1,0 +1,30 @@
+DATACENTER 000429
+AUTOMATED REPORT PERIOD: FY 2015-2017
+ERROR MODE                            COUNT
+----------------------------------------------
+Physical intrusion (water):           0
+Fiber pipeline in:                    1
+Operator (non-employee) error:        1
+A/C:                                  1
+Power/generator reduction:            0
+Fiber pipeline out:                   0
+Physical intrusion (person):          0
+Misc. elec.:                          4
+Power/generator loss:                 0
+Operator (employee) error:            0
+OPERATION NOTES:
+e276ed32eb44500636832430e133f5c00e85(redacted)
+eddab48301b53e8a9d94cc0300712dcc2b4c(redacted)
+f83da61d43cc3d748d826d172398c3d1ed5a(redacted)
+7e1414127c477a45b179146d7ab22b349392(redacted)
+42e7b6e4c31800e1ecea746725c55b3ca644(redacted)
+1362a2d222b70052d535191bb165ace9b360(redacted)
+127be5e6ec0b1eb049b7c0f65641e8cd410b(redacted)
+27b7f3ca3b408456ddaa9fc9f8b682c7e7f2(redacted)
+eb3826e76db367c54d7257b6a7a41bbf4388(redacted)
+d43a242569d04f36c6143a8e4915ce739dce(redacted)
+29372da08baf6c1f6cf3b5d279a277371d0d(redacted)
+9f8a00d7a5848caeceaaeee45e4531dfbae9(redacted)
+aed72cdf1d31e15015ecb9df8c94ede1bbce(redacted)
+----------------------------------------------
+END OF LINE

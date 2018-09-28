@@ -1,0 +1,16 @@
+DATACENTER 001272
+AUTOMATED REPORT PERIOD: FY 2015-2017
+ERROR MODE                            COUNT
+----------------------------------------------
+A/C:                                  9
+Fiber pipeline in:                   10
+Fiber pipeline out:                   0
+Misc. elec.:                         30
+Operator (employee) error:            0
+Operator (non-employee) error:        0
+Physical intrusion (person):          0
+Physical intrusion (water):          90
+Power/generator loss:                 0
+Power/generator reduction:            1
+----------------------------------------------
+END OF LINE

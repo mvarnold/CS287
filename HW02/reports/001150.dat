@@ -1,0 +1,31 @@
+DATACENTER 001150
+AUTOMATED REPORT PERIOD: FY 2015-2017
+
+
+OPERATION NOTES:
+514e836373c9b26116aecdc4bada4061a215(redacted)
+a8821527acd0767d2f124c20604adaf76f83(redacted)
+1a704eb19c1dca932548af79e1bac1de51ca(redacted)
+bf99384f5d3ce6217fec7b88f2f5905b9d26(redacted)
+0b1931989dc8e0364d0fb020776b73fcef9e(redacted)
+f6737e9d4a82caadd93ff431871b45dd82ac(redacted)
+6b24e935d82fd408ae230cadd44cdc9a5a3f(redacted)
+30bade64b79518098930a4ea3fbca32253a4(redacted)
+893aa757cf0a162b7d16181c999b2561bfc1(redacted)
+ab9ef119640534d78585be260fc697031235(redacted)
+8dcca96b0285f7be9bdf48a060e5675b0f80(redacted)
+356a06618753096a2978aec8bd0ddb50714e(redacted)
+90d6af508739794d76a19ec136871f7b2e1b(redacted)
+ffe3c8f4e9eac1c82e29c78e4872f502ee45(redacted)
+ERROR MODE                            COUNT
+----------------------------------------------
+A/C:                                 29
+Fiber pipeline in:                   30
+Fiber pipeline out:                   8
+Misc. elec.:                        163
+Operator (employee) error:            0
+Operator (non-employee) error:        3
+Physical intrusion (person):          0
+Physical intrusion (water):          16
+Power/generator loss:                 0
+Power/generator reduction:            3
