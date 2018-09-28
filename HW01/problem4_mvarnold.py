@@ -4,17 +4,16 @@
 # Name: Michael Arnold
 # Date: 09-12-18
 
-import random
 import numpy as np
 import matplotlib.pyplot as plt
-from problem2_mvarnold import coin_flip 
+from problem2_mvarnold import coin_flip
 
-def dependent_coin_flip(p,q1,q2):
+def dependent_coin_flip(p, q1, q2):
     """ returns a tuple representing the flip outcomes of two coins with the
     probablities of the second depend on the first"""
-   
+
     X = coin_flip(p)
-    if X =="H":
+    if X == "H":
         Y = coin_flip(q1)
     else:
         Y = coin_flip(q2)
@@ -144,9 +143,9 @@ inputs = [(0.2,0.4,0.4),(0.2,0.75,0.25)]
 index = -1
 for i in inputs:
     index += 1
-    history,count = coin_test_dependent(*i)
+    history, count = coin_test_dependent(*i)
     #compute_joint_prob(count,i,False)
     dependence_test(count)
     for j in range(100):
-        plotting_dependence_test(1000,index,*i)
+        plotting_dependence_test(1000, index, *i)
 plt.show()
