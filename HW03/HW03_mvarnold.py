@@ -49,7 +49,10 @@ def data_loader(filename):
 
 def tweet_categorizer(tweets):
     """ takes tweet dictionary and creates two new lists 
-    for if tweet referencing obama and one for Romney"""
+    for if tweet referencing obama and one for Romney
+    
+    Also checks to see if any tweets are not assigned to either Candiate"""
+
     obama_list = ["obama", "barack", "barry", "obummer", "bammy", "odummy"]
     romney_list = ["mitt", "romney", "robme", "romnuts"]
 
@@ -82,17 +85,20 @@ def tweet_time_series(obama_tweets, romney_tweets):
     labels = ["Obama Tweets", "Romeny Tweets"]
     colors = ['b', 'r']
     index = 0
+
     for canidate in tweets_list:
         date_dict = {}
+
         for tweet in canidate:
             date = datetime.datetime(*time.strptime(tweet[0][:19],"%a, %d %b %Y %H")[:4])
+
             if date in date_dict.keys():
                 date_dict[date] += 1
             else:
                 date_dict[date] = 1
         
         dates = np.array([[matplotlib.dates.date2num(key),value] for key,value in date_dict.items()])
-        dates = dates[dates[:,0].argsort()]
+        dates = dates[dates[:,0].argsort()] # sort the dates
         plt.plot_date(dates[:,0], dates[:,1],'.-',color = colors[index],label = labels[index])
         index += 1
     plt.legend(bbox_to_anchor = (0.5,1.0))
@@ -110,17 +116,17 @@ def word_counter(corpus):
     word_dict = {}
     punctuation = "!$%&'()*+,-./:;<=>?[\]^_`{|}~"
     for tweet in corpus:
+        # split on punctuation as well as white space
         for word in [i.split(punctuation) for i in tweet[1].split()]:
             if word[0] in word_dict.keys():
                 word_dict[word[0]] += 1
             else:
                 word_dict[word[0]] = 1
-
     return word_dict
 
 
 def slant_coeffecient(obama_words, romney_words):
-    """computes the coeffecient"""
+    """computes the Yule coeffecient"""
     coeff_dict = {}
     for word in obama_words.keys():
         if word in romney_words.keys():
@@ -128,24 +134,27 @@ def slant_coeffecient(obama_words, romney_words):
             (obama_words[word]+romney_words[word])
     return coeff_dict
 
-
+# load tweets
 tweets = data_loader("data/HW03_twitterData.json.txt.gz")
 print("recovered {} unique tweets".format(len(tweets)))
 
+# assign each tweet to obama and/or romney
 obama_tweets, romney_tweets = tweet_categorizer(tweets)
 print(len(obama_tweets)+len(romney_tweets))
 
+# make tweet time series
 tweet_time_series(obama_tweets, romney_tweets)
 
+# count the number of words in each corpus
 obama_words = word_counter(obama_tweets)
-#print(sorted(obama_words.items(),key=lambda kv:kv[1]))
 romney_words = word_counter(romney_tweets)
 
+# sort coefficient dictionary by value
 top_r = sorted(slant_coeffecient(obama_words, romney_words).items(), key=lambda kv: kv[1])
 top_o = sorted(slant_coeffecient(obama_words, romney_words).items(), key=lambda kv: kv[1],reverse=True)
 
+# open and write top words to file
 f = open('words.txt', 'w')
-
 for i in range(100):
     f.write('{0} {1:.6f} {2} {3:.6f}\n'.format(top_o[i][0],top_o[i][1],top_r[i][0],top_r[i][1]))
 f.close()
